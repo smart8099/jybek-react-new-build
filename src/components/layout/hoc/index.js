@@ -1,0 +1,1 @@
+export {withBaseLayout} from './withBaseLayout.jsx';

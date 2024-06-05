@@ -1,0 +1,149 @@
+
+.cover-user{
+  max-width: 100%;
+  height: 100vh;
+}
+@media (max-width:768px) {
+  .cover-user .padding-less {
+    position: relative !important;
+    height: 400px !important
+  }
+}
+
+@media (max-width:768px) {
+  .cover-user {
+    text-align: left !important
+  }
+
+  .cover-user .cover-my-30 {
+    margin: 30px 0
+  }
+}
+
+.cover-user .cover-user-img {
+  height: 100vh
+}
+
+@media (min-width:1025px) {
+  .cover-user .cover-user-img {
+    padding: 0 15%
+  }
+}
+
+@media (max-width:768px) {
+  .cover-user .cover-user-img {
+    -webkit-box-align: start !important;
+    -ms-flex-align: start !important;
+    align-items: start !important;
+    height: auto !important;
+    padding: 30px
+  }
+}
+
+@media (max-width:768px) {
+  .cover-user .padding-less {
+    position: relative !important;
+    height: 400px !important
+  }
+}
+
+
+@media (max-width:1025px) {
+  .cover-user .cover-user-img .card {
+    padding-top: 15rem;
+  }
+}
+
+@media (max-width:768px) {
+  .cover-user .cover-user-img .card {
+    padding-top: 0%;
+  }
+}
+
+@media (max-width:768px) {
+  .image-responsive{
+    position: relative !important;
+    height: 400px !important
+  }
+}
+
+.bg-overlay {
+  background-color: rgba(57, 57, 57, 0.7);
+  /* position: absolute; */
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  /* z-index: 99 */
+}
+
+.submitBtnsHover:hover{
+  background-color: #FFBC5C !important;
+}
+
+.CustomHover:hover{
+  color: #F69E20 !important;
+}
+
+.bg-home {
+  height: 100vh;
+  background-size: cover;
+  -ms-flex-item-align: center;
+  align-self: center;
+  position: relative;
+  background-position: center center
+}
+
+.container {
+  width: 100%;
+}
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
+@media (max-width:767px) {
+  .bg-home {
+    padding: 150px 0;
+    height: auto
+  }
+}
+
+.me-lg-5 {
+  margin-right: 3rem !important
+}
+
+.d-flex {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important
+}
+
+.align-items-center {
+  -webkit-box-align: center !important;
+  -ms-flex-align: center !important;
+  align-items: center !important
+}
